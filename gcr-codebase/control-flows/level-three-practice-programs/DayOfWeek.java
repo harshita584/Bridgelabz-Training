@@ -1,16 +1,14 @@
+
 import java.util.Scanner;
 
 public class DayOfWeek {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the date: ");
-		int d = sc.nextInt();
+		int d = Integer.parseInt(args[0]);
+		int m = Integer.parseInt(args[1]);
+		int y = Integer.parseInt(args[2]);
 		
-		System.out.println("Enter the month: ");
-		int m = sc.nextInt();
-		
-		System.out.println("Enter the year: ");
-		int y = sc.nextInt();
+                System.out.println("Date is: " + d + "-" + m + "-" + y);
 		
 		int y0 = y-(14-m)/12;
 		int x = y0 + y0/4 - y0/100 + y0/400;
