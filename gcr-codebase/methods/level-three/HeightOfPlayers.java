@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MeanHeight {
+public class HeightOfPlayers {
 
 	// method to Find the sum of all the elements present in the array
 	public static int sumHeights(int heights[])
