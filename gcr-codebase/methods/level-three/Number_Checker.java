@@ -1,30 +1,6 @@
 import java.util.Scanner;
+public class Number_Checker extends NumberChecker{
 
-public class Number_Checker {
-
-    // Method to find count of digits
-    public static int countDigits(int number) {
-        int count = 0;
-        while (number != 0) {
-            count++;
-            number = number / 10;
-        }
-        return count;
-    }
-
-    // Method to store digits of the number in an array 
-    public static int[] storeDigits(int number) {
-        int count = countDigits(number);
-        int[] digits = new int[count];
-
-        int index = count - 1;
-        while (number != 0) {
-            digits[index] = number % 10;
-            number = number / 10;
-            index--;
-        }
-        return digits;
-    }
 
     // Method to find sum of digits
     public static int sumOfDigits(int[] digits) {
@@ -86,7 +62,7 @@ public class Number_Checker {
 
         int[][] freq = digitFrequency(digits);
 
-        System.out.println("\nDigit Frequency:");
+        System.out.println("Digit Frequency:");
         for (int i = 0; i < 10; i++) {
             if (freq[i][1] > 0) {
                 System.out.println("Digit " + freq[i][0] + " occurs " + freq[i][1] + " time.");
