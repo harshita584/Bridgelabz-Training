@@ -40,5 +40,4 @@ public class LengthOfString {
 			System.out.println("Results are different.");
 		}
 	}
-
 }
