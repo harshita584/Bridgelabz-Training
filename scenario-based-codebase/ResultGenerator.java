@@ -15,7 +15,7 @@ public class ResultGenerator {
             System.out.print("Subject " + i + ": ");
             int marks = sc.nextInt();
             totalMarks += marks;
-        }
+        }   
 
         double average = totalMarks / (double) subjects;
         char grade;
