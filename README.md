@@ -1,98 +1,81 @@
-# BridgeLabz Training - Core Java Practice
----
-## 🚀 *WEEK 1: GIT, GITHUB & JAVA PROGRAMMING FUNDAMENTALS*
+# BridgeLabz Training Progress Log
 
-### 📅 *Day 1 – Git & GitHub Setup*  
-*(16-Dec-2025)*
 
-- Installed and configured Git.
-- Created and set up a GitHub repository: *BridgeLabz-Training*.
-- Learned and practiced basic Git commands:
-  - git init
-  - git clone
-  - git add
+## Week 1 : Git, GitHub & Java Programming Fundamentals ##
 
-## Repository Structure
 
-BridgeLabz-Training/
-├── gcr-codebase/
-│   ├── programming-elements/
-│   ├──control-flow/
-│   └── arrays
-│   │      
-│   ├──scenario-based
-│   └── leetcode-questions
 
-## 🚀 *WEEK 1: GIT, GITHUB & JAVA PROGRAMMING FUNDAMENTALS*
+##  Day 1 – Git & GitHub Setup
+**Date:** 16-Dec-2025
 
-### 📅 *Day 1 – Git & GitHub Setup*  
-*(16-Dec-2025)*
+- Installed and configured Git
+- Set up GitHub repository
+- <img width="729" height="559" alt="image" src="https://github.com/user-attachments/assets/0d4ea2ec-e862-4f96-aa3c-b533e3a80438" />
 
-- Installed and configured Git.
-- Created and set up a GitHub repository: *BridgeLabz-Training*.
-- Learned and practiced basic Git commands:
-  - git init
-  - git clone
-  - git add
-  - git commit -m "Initial commit"
+- Learned Git commands: `init`, `status`, `add`, `commit`, `push`
+- Pushed initial files to GitHub  
 
 ---
 
-### 📅 *Day 2 – Java Programming Elements*  
-*(17-Dec-2025)*
+##  Day 2 – Git Practice & Basic Java Programs
+**Date:** 17-Dec-2025
 
-- Learned Java Programming Elements:
-  - Variables
-  - Data Types
-  - Operators
-  - Input / Output
-- 📘 Material: *01 - Java Programming Elements*
-- 📝 Assignment: *Submission of Programming Elements Practices*
+- Practiced Git workflow
+- Solved basic Java programs
+- Committed and pushed Java files  
+- **Code Link:** [program-prerequisite](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisites)
 
 ---
 
-### 📅 *Day 3 – Java Control Flow*  
-*(18-Dec-2025)*
+## Day 3 - Programming Elements in Java
+**Date:** 18-Dec-2025
 
-- Learned Control Flow concepts:
-  - Conditional Statements (if, if-else, switch)
-  - Looping Statements (for, while, do-while)
-- 📘 Material: *02 - Java Control Flows*
-- 📝 Assignment: *Submission on Control Flow Practices*
-
----
-
-### 📅 *Day 4 – Java Arrays*  
-*(19-Dec-2025)*
-
-- Learned Array concepts:
-  - 1D Arrays
-  - Iterating Arrays
-  - Storing and Processing Data
-- 📘 Material: *03 - Java Arrays*
-- 📝 Assignment: *Submissions on Arrays Practices*
+- Learned variables, data types, operators, user input/output
+- Solved practice problems
+- Pushed solutions to GitHub
+- **Code Link:** [programming-elements](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
-### 📅 *Day 5 – Java Methods*  
-*(20-Dec-2025)*
+  ## Day 4 - Control Flow
+**Date:** 19-Dec-2025
 
-- Learned Java Methods:
-  - Method Declaration & Definition
-  - Parameters & Return Types
-  - Static Methods
-- 📘 Material: *04 - Java Methods*
-- 📝 Assignment: *Submissions on Java Methods Practices*
+- Practiced if, else, switch, for-loop, while-loop, do-while-loop
+- Implemented decision-making problems
+- **Code Link:** [control-flows](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 ---
 
-### 📅 *Day 6 – Java Strings*  
-*(21–22-Dec-2025)*
+## Day 5 - Arrays
+**Date :** 20-Dec-2025
 
-- Learned Java String concepts:
-  - String Creation
-  - String Methods
-  - Immutability
-  - String vs StringBuilder
-- 📘 Material: *05 - Java String*
-- 📝 Assignment: *Submissions on Java String Practices*
+- Learn array initialization, implementation and memory allocation
+- Practice of 1D, 2D array
+- help in understanding the memory allocation
+- **Code Link :**[arrays](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
+
+  ## Day 6 - Methods
+**Date:** 22-Dec-2025
+
+- Practiced UserDefined Methods, Using methods multiple times
+- Learned about Java.lang.Math Class
+- Implemented in problems to make more dynamic
+- **Code Link:** [methods](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+---
+
+  ## Day 7 - Strings
+**Date:** 23-Dec-2025
+
+- Practiced Java Strings, create Strings, Take String input
+- Learned String Arrays, String as method parameter, built-in methods, exeception
+- Implemented exception, checked or Unchecked exception
+- **Code Link:** [String](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+ ## Day 8 - Extra
+**Date:** 24-Dec-2025
+- Practiced extra built-in methods
+- Learned math.random, math.pow(),etc
+- **Code Link:** [extras](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/extras)
