@@ -78,4 +78,4 @@
 **Date:** 24-Dec-2025
 - Practiced extra built-in methods
 - Learned math.random, math.pow(),etc
-- **Code Link:** [extras](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/extras)
+- **Code Link:** [extras](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/extras)						
