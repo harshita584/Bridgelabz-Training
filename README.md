@@ -90,5 +90,5 @@
 - Practiced 3 scenario-based questions
 - Used `switch` statement for decision making
 - Implemented ternary operator and `do-while` loop
-- **Code Link:** [Scenario Based]
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
 
