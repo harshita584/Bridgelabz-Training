@@ -13,6 +13,6 @@
 - Practiced default, parameterized, non-parameterized, and copy constructors
 - Learned access modifiers in Java
 - Implemented instance methods
-- **Code Link:** [constructors-practice](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobjects)
+- **Code Link:** [constructors-practice](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/constructors/levelone)
 
 ---
