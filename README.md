@@ -74,8 +74,21 @@
 - Implemented exception, checked or Unchecked exception
 - **Code Link:** [String](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
+---
+
  ## Day 8 - Extra
 **Date:** 24-Dec-2025
 - Practiced extra built-in methods
 - Learned math.random, math.pow(),etc
 - **Code Link:** [extras](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/extras)
+
+---
+
+## Day 9 – Scenario based question
+**Date:** 26-Dec-2025
+
+- Practiced 3 scenario-based questions
+- Used `switch` statement for decision making
+- Implemented ternary operator and `do-while` loop
+- **Code Link:** [Scenario Based]
+
