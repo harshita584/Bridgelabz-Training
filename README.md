@@ -95,3 +95,12 @@
 - Implemented ternary operator and `do-while` loop
 - **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
 
+---
+
+## Day 10 - Constructors & Access Modifiers
+**Date:** 27-Dec-2025
+- Practiced default, parameterized, non-parameterized, and copy constructors
+- Learned access modifiers in Java
+- Implemented instance methods
+- **Code Link:** [constructors-practice](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/constructors/levelone)
+
