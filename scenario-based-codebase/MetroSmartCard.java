@@ -11,7 +11,7 @@ public class MetroSmartCard {
         do {
             System.out.println("\nCurrent Balance: ₹" + balance);
             System.out.print("Enter distance travelled (in km): ");
-            int distance = sc.nextInt();
+            int distance = sc.nextInt();    
 
             // Fare calculation using ternary operator
             double fare = (distance <= 5) ? 10 : 20;
