@@ -90,3 +90,8 @@
 - Understood how to define class structure and create objects
 - Started Implementing Object-Oriented Programming System (OOPS) concepts
 - **Code Link:** [classesandobjects](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobjects)
+- Practiced 3 scenario-based questions
+- Used `switch` statement for decision making
+- Implemented ternary operator and `do-while` loop
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+
