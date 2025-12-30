@@ -104,10 +104,13 @@
 - Implemented instance methods
 - **Code Link:** [constructors-practice](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/constructors/levelone)
 
+---
+
 ## Day 11 - Static Members, this Keyword & instanceof Operator
 **Date:** 29-Dec-2025
-- Practiced questions on static variables and static methods
-- Understood the use of the this keyword in Java
+- Practiced 5 scenario-based questions
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+- Practiced questions on static variables, static methods and this keyword
 - Learned and implemented the instanceof operator
 - **Code Link:** [keywords](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/keywords)
 
