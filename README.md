@@ -92,3 +92,21 @@
 - Implemented ternary operator and `do-while` loop
 - **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
 
+---
+
+## Day 10 – Scenario based question
+**Date:** 29-Dec-2025
+
+- Practiced 5 scenario-based questions
+- Implemented real-life scenarios like Phone Recharge Simulator and Shopkeeper’s Discount Dashboard
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+
+---
+
+## Day 11 – Scenario based question
+**Date:** 30-Dec-2025
+
+- Practiced 5 scenario-based questions
+- Worked with time format handling and real-world system design
+- Implemented applications like Movie Booking System, Library Reminder App, and Train Reservation Queue
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
