@@ -43,7 +43,7 @@ public class MovieTicket {
             char seatChoice;
             while (true) {
                 System.out.println("\nSelect Seat Type:");
-                System.out.println("a. Silver (₹200)  b. Gold (₹250)  c. Platinum (₹300)");
+                System.out.println("a. Silver (Rs.200)  b. Gold (Rs.250)  c. Platinum (Rs.300)");
 
                 seatChoice = sc.next().toLowerCase().charAt(0);
 
@@ -71,11 +71,11 @@ public class MovieTicket {
 
             if (snackOption == 'y') {
                 System.out.println("Select Snacks:");
-                System.out.println("1.Popcorn (₹100)");
-                System.out.println("2.Samosa (₹50)");
-                System.out.println("3.Beverages (₹80)");
-                System.out.println("4.Pizza (₹150)");
-                System.out.println("5.Nachos (₹120)");
+                System.out.println("1.Popcorn (Rs.100)");
+                System.out.println("2.Samosa (Rs.50)");
+                System.out.println("3.Beverages (Rs.80)");
+                System.out.println("4.Pizza (Rs.150)");
+                System.out.println("5.Nachos (Rs.120)");
 
                 int snackChoice = sc.nextInt();
 
