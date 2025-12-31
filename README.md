@@ -94,7 +94,7 @@
 
 ---
 
-## Day 10 – Scenario based question
+## Day 11 – Scenario based question
 **Date:** 29-Dec-2025
 
 - Practiced 5 scenario-based questions
@@ -103,10 +103,19 @@
 
 ---
 
-## Day 11 – Scenario based question
+## Day 12 – Scenario based question
 **Date:** 30-Dec-2025
 
 - Practiced 5 scenario-based questions
 - Worked with time format handling and real-world system design
 - Implemented applications like Movie Booking System, Library Reminder App, and Train Reservation Queue
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+
+---
+
+## Day 13 – Scenario based question
+**Date:** 31-Dec-2025
+
+- Practiced 5 scenario-based questions
+- Implemented applications like Currency Exchange Kiosk, Online Quiz Application, etc
 - **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
