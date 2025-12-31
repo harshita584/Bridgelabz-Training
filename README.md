@@ -114,3 +114,23 @@
 - Learned and implemented the instanceof operator
 - **Code Link:** [keywords](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/keywords)
 
+## Day 12 - Object Modeling in Java
+**Date:** 30-Dec-2025
+- Practiced 5 scenario-based questions
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+- Studied Object Modeling concepts
+- Understood Association between classes
+- Learned Aggregation (HAS-A relationship – weak coupling) and Composition (HAS-A relationship – strong coupling)
+- **Code Link:** [objectmodeling](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
+
+---
+
+## Day 13 - Inheritance in Java
+**Date:** 31-Dec-2025
+- Practiced 5 scenario-based questions
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/scenario-based-codebase).
+- Implemented Single Inheritance, Multilevel Inheritance, Hierarchical Inheritance, Hybrid Inheritance (using interfaces)
+- Solved assisted inheritance-based problems for better clarity
+- **Code Link:** [Inheritance](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
+
+---
