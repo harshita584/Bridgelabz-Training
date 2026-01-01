@@ -1,4 +1,4 @@
-package com.inheritance.vehicleandtransportsystem;
+package com.inheritance.assistedproblems.vehicleandtransportsystem;
 
 public class Truck extends Vehicle {
     double loadCapacity; // in tons

@@ -1,4 +1,4 @@
-package com.inheritance.vehicleandtransportsystem;
+package com.inheritance.assistedproblems.vehicleandtransportsystem;
 
 public class Car extends Vehicle {
     int seatCapacity;
