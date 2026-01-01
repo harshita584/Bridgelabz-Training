@@ -1,4 +1,4 @@
-package com.objectmodelling.booksandlibrary;
+package com.objectmodeling.booksandlibrary;
 
 public class Book {
     String title;

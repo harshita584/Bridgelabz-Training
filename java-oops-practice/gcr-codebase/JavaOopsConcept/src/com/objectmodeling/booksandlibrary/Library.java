@@ -1,4 +1,4 @@
-package com.objectmodelling.booksandlibrary;
+package com.objectmodeling.booksandlibrary;
 
 import java.util.ArrayList;
 
