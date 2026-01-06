@@ -156,3 +156,15 @@
 - **Code Link:** [Linked List](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linkedlist)
 
 ---
+
+## Day 16 - Stacks, Queues & Hash Maps
+**Date:** 03-Jan-2026
+
+- Learned best practices of Stacks and Queues and their real-world use cases
+- Practiced problems like Queue using Stacks, Stock Span, Sliding Window Maximum, and Circular Tour
+- Understood different queue types and safe handling of underflow/overflow
+- Worked with Hash Maps for efficient lookup using problems like Two Sum, Zero Sum Subarrays, and Longest Consecutive Sequence
+- Solved 2 Scenario Based Question like Cabbygo and MyBank
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- **Code Link:** [StackandQueue](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/stackandqueue)
+- **Code Link:** [HashMap](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/hashmapsandhashfunctions)
