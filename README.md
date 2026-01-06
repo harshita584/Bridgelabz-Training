@@ -53,3 +53,11 @@
 
 ---
 
+## Day 15 - Scenario Based
+**Date:** 02-Jan-2026
+- Solved 5 scenario based question
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+
