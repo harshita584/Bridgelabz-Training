@@ -16,6 +16,6 @@
 - Understood different queue types and safe handling of underflow/overflow
 - Worked with Hash Maps for efficient lookup using problems like Two Sum, Zero Sum Subarrays, and Longest Consecutive Sequence
 - **Code Link:** [StackandQueue](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/stackandqueue)
-- - **Code Link:** [HashMap](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/hashmapsandhashfunctions)
+- **Code Link:** [HashMap](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/hashmapsandhashfunctions)
 
 ---
