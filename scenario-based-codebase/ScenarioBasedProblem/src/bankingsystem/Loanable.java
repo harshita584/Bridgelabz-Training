@@ -1,4 +1,4 @@
-package com.fourpillarsimplementation.bankingsystem;
+package bankingsystem;
 
 public interface Loanable {
    void applyForLoan(); 

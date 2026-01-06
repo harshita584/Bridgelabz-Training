@@ -1,4 +1,4 @@
-package com.fourpillarsimplementation.bankingsystem;
+package bankingsystem;
 
 abstract class BankAccount {
     private int accountNumber;

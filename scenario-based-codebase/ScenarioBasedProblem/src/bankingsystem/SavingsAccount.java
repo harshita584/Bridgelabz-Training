@@ -1,4 +1,4 @@
-package com.fourpillarsimplementation.bankingsystem;
+package bankingsystem;
 
 public class SavingsAccount extends BankAccount implements Loanable{
 

@@ -1,4 +1,4 @@
-package com.fourpillarsimplementation.bankingsystem;
+package bankingsystem;
 
 import java.util.ArrayList;
 import java.util.List;
