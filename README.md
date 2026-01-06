@@ -134,3 +134,13 @@
 - **Code Link:** [Inheritance](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance)
 
 ---
+
+## Day 14 - Four Pillars Implementation
+**Date:** 01-Jan-2026
+- Learned and implemented Polymorphism (compile-time and runtime)
+- Practiced Abstraction using abstract classes along with encapsulation
+- Started solving scenario-based questions on OOPs concepts
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- **Code Link:** [FourPillarsImplementation](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/fourpillarsimplementation)
+
+---
