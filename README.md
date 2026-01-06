@@ -151,7 +151,7 @@
 - Learned the concept of Linked List and its importance
 - Studied types of linked lists: Singly, double and circular linked list
 - Understood node structure and memory allocation and practiced questions
-- Solved 5 Scenario Based Questions
+- Solved 5 Scenario Based Questions namely Hospital Patient Management System, Vehicle Rental Application, University Course Enrollment System, E-Wallet Application, Smart Home Automation System
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 - **Code Link:** [Linked List](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linkedlist)
 
