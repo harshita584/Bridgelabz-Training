@@ -2,7 +2,8 @@ package com.linearandbinarysearch;
 
 import java.util.HashSet;
 
-class RemoveDuplicatesUsingStringBuilder {
+
+public class RemoveDuplicatesUsingStringBuilder {
 
     public static void main(String[] args) {
 
