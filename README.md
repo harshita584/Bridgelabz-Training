@@ -55,6 +55,8 @@
 - **Code Link :**[arrays](https://github.com/harshita584/Bridgelabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
+## Week 2 – Core Java & Introduction to OOPs ##
+
 
   ## Day 6 - Methods
 **Date:** 22-Dec-2025
@@ -105,6 +107,8 @@
 - **Code Link:** [constructors-practice](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/constructors/levelone)
 
 ---
+## Week 3 – OOPs Concepts & Data Structures Basics ##
+
 
 ## Day 11 - Static Members, this Keyword & instanceof Operator
 **Date:** 29-Dec-2025
@@ -168,3 +172,31 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 - **Code Link:** [StackandQueue](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/stackandqueue)
 - **Code Link:** [HashMap](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/hashmapsandhashfunctions)
+
+---
+## Week 4 – DSA & Advanced Java Concepts ##
+
+
+## Day 17 - Sorting Algorithms
+**Date:** 05-Jan-2026
+
+- Practiced multiple sorting algorithms using real-world problem statements
+- Implemented Bubble Sort, Selection Sort, and Insertion Sort for basic sorting logic
+- Worked with advanced sorting techniques like Merge Sort, Quick Sort, and Heap Sort
+- Learned Counting Sort for range-based data sorting
+- Solved 2 Scenario Based Question like CampusConnect and SwiftCart
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- **Code Link:** [Sorting Algorithm]()
+
+---
+
+## Day 18 - Strings, File Handling & Searching Techniques
+**Date:** 06-Jan-2026
+
+- Practiced StringBuilder and StringBuffer with real-world problems like reversing strings, removing duplicates, and performance comparison
+- Worked on file handling using FileReader and InputStreamReader, including file reading, word counting, and handling encodings
+- Implemented Linear Search for unsorted data and simple search-based problems
+- Practiced Binary Search on sorted data for advanced cases like rotation point, peak element, and 2D matrix search
+- Solved 2 Scenario Based Question like EduMentor, FitTrack, PetPal and EventEase
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- **Code Link:** [Searching Techniques]()
