@@ -186,7 +186,7 @@
 - Learned Counting Sort for range-based data sorting
 - Solved 2 Scenario Based Question like CampusConnect and SwiftCart
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
-- **Code Link:** [Sorting Algorithm]()
+- **Code Link:** [Sorting Algorithm](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/sortings)
 
 ---
 
@@ -199,4 +199,4 @@
 - Practiced Binary Search on sorted data for advanced cases like rotation point, peak element, and 2D matrix search
 - Solved 2 Scenario Based Question like EduMentor, FitTrack, PetPal and EventEase
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
-- **Code Link:** [Searching Techniques]()
+- **Code Link:** [Searching Techniques](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linearandbinarysearch)
