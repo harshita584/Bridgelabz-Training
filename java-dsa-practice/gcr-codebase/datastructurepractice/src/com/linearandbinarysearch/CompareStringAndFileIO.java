@@ -10,10 +10,7 @@ public class CompareStringAndFileIO {
         int n = 1000000; // number of concatenations
         String str = "hello";
 
-        // ----------------------------
         // Compare StringBuilder vs StringBuffer
-        // ----------------------------
-
         // StringBuilder test
         StringBuilder sb = new StringBuilder();
         long startSB = System.nanoTime();
@@ -35,10 +32,7 @@ public class CompareStringAndFileIO {
         System.out.println("StringBuilder time: " + timeSB + " ns");
         System.out.println("StringBuffer time: " + timeSBUF + " ns");
 
-        // ----------------------------
         // Compare FileReader vs InputStreamReader
-        // ----------------------------
-
         String fileName = "largefile.txt"; // assume 100MB file exists
 
         // FileReader test
@@ -72,10 +66,7 @@ public class CompareStringAndFileIO {
         long endISR = System.nanoTime();
         long timeISR = endISR - startISR;
 
-        // ----------------------------
         // Display results
-        // ----------------------------
-
         System.out.println("\nFileReader word count: " + wordCountFR + " | Time: " + timeFR + " ns");
         System.out.println("InputStreamReader word count: " + wordCountISR + " | Time: " + timeISR + " ns");
     }
