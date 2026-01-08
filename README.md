@@ -200,3 +200,25 @@
 - Solved 2 Scenario Based Question like EduMentor, FitTrack, PetPal and EventEase
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 - **Code Link:** [Searching Techniques](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linearandbinarysearch)
+
+
+## Day 19 - Scenario Based
+**Date:** 07-Jan-2026
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - ParkEase – Smart Parking Management System
+ - LoanBuddy – Loan Approval Automation
+ - BookBazaar – Digital Bookstore System
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+## Day 20 - Scenario Based
+**Date:** 08-Jan-2026
+- Solved 2 scenario based question
+- Scenarios Covered:
+ - MediStore – Pharmacy Inventory & Sales System
+ - TourMate – Travel Itinerary Planner
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
