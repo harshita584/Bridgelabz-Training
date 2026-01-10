@@ -118,3 +118,14 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
+
+## Day 21 - Scenario Based
+**Date:** 09-Jan-2026
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - Artify – Digital Art Marketplace
+ - FoodLoop – Restaurant Ordering System
+ - SkillForge – Online Learning Portal
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
