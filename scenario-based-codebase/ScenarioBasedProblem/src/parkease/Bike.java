@@ -1,4 +1,4 @@
-package com.parkease;
+package parkease;
 
 public class Bike extends Vehicle {
 

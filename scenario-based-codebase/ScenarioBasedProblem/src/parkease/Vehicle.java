@@ -1,4 +1,4 @@
-package com.parkease;
+package parkease;
 
 public abstract class Vehicle implements IPayable {
     protected String vehicleNumber;

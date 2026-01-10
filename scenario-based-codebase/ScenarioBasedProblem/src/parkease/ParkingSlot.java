@@ -1,4 +1,4 @@
-package com.parkease;
+package parkease;
 
 public class ParkingSlot {
     private int slotId;

@@ -1,4 +1,4 @@
-package com.parkease;
+package parkease;
 
 public class ParkEaseApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.parkease;
+package parkease;
 
 import java.util.ArrayList;
 import java.util.List;
