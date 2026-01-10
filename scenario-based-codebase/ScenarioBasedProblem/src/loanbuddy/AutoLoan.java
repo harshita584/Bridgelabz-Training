@@ -1,4 +1,4 @@
-package com.loanbuddy;
+package loanbuddy;
 
 public class AutoLoan extends LoanApplication {
 

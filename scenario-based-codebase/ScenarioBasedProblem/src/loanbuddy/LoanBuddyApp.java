@@ -1,10 +1,10 @@
-package com.loanbuddy;
+package loanbuddy;
 
 public class LoanBuddyApp {
     public static void main(String[] args) {
 
         Applicant applicant =
-                new Applicant("Ali Ahmad", 720, 20000, 500000);
+                new Applicant("Harshita Patel", 720, 20000, 500000);
 
         LoanApplication loan =
                 new HomeLoan(applicant, 240);

@@ -1,4 +1,4 @@
-package com.loanbuddy;
+package loanbuddy;
 
 public class HomeLoan extends LoanApplication {
 	    public HomeLoan(Applicant applicant, int term) {

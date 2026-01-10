@@ -1,4 +1,4 @@
-package com.loanbuddy;
+package loanbuddy;
 
 public abstract class LoanApplication implements IApprovable {
 

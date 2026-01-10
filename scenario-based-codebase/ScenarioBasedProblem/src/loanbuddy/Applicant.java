@@ -1,4 +1,4 @@
-package com.loanbuddy;
+package loanbuddy;
 
 public class Applicant {
     private String name;
