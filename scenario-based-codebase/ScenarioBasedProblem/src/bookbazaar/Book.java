@@ -4,7 +4,7 @@ public abstract class Book implements IDiscountable {
 
     private String title;
     private String author;
-    protected double price;   // protected for subclasses
+    protected double price;   
     private int stock;
 
     // Constructor without offer
@@ -15,7 +15,6 @@ public abstract class Book implements IDiscountable {
         this.stock = stock;
     }
 
-    // Encapsulation: stock can only be modified via methods
     public boolean reduceStock(int quantity) {
         if (quantity <= stock) {
             stock -= quantity;
@@ -36,6 +35,5 @@ public abstract class Book implements IDiscountable {
         return title;
     }
 
-    // Abstract discount method → Polymorphism
     public abstract double applyDiscount(double price, int quantity);
 }

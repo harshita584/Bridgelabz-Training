@@ -4,10 +4,9 @@ public class BookBazaarMain {
 
     public static void main(String[] args) {
 
-        // Create books (Inheritance + Constructors)
         Book ebook = new EBook(
-                "Java Mastery",
-                "James Gosling",
+                "Let Us C",
+                "Yashwant Kanetkar",
                 500.0,
                 10
         );
@@ -22,18 +21,16 @@ public class BookBazaarMain {
         // Create order
         Order order = new Order("Harshita Patel");
 
-        // Add books to order (Encapsulation: stock updated via method)
         order.addBook(ebook, 2);
         order.addBook(printedBook, 1);
 
-        // Calculate total (Polymorphism + Operators)
         double totalAmount = order.calculateTotal();
 
         // Display results
-        System.out.println("===== BookBazaar Order Summary =====");
+        System.out.println("\nBookBazaar Order Summary");
         System.out.println("Customer Name : Harshita Patel");
         System.out.println("Order Status  : " + order.getOrderStatus());
-        System.out.println("Total Amount  : ₹" + totalAmount);
+        System.out.println("Total Amount  : Rs." + totalAmount);
 
         // Remaining stock
         System.out.println("\nRemaining Stock:");
