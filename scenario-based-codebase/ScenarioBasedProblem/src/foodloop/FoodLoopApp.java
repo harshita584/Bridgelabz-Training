@@ -1,4 +1,4 @@
-package com.foodloop;
+package foodloop;
 
 public class FoodLoopApp {
     public static void main(String[] args) {

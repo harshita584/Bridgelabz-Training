@@ -1,4 +1,4 @@
-package com.foodloop;
+package foodloop;
 
 abstract class FoodItem {
     private String name;

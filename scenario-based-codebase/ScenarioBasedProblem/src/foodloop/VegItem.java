@@ -1,4 +1,4 @@
-package com.foodloop;
+package foodloop;
 
 class VegItem extends FoodItem {
 

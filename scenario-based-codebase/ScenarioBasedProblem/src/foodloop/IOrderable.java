@@ -1,4 +1,4 @@
-package com.foodloop;
+package foodloop;
 
 interface IOrderable {
     void placeOrder();
