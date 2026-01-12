@@ -1,4 +1,4 @@
-package com.skillforge;
+package skillforge;
 
 public interface ICertifiable {
 	String generateCertificate(Student student,Course c);

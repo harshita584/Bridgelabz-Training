@@ -1,4 +1,4 @@
-package com.skillforge;
+package skillforge;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SkillForgeApp {
 public static void main(String[] args) {
-	 Student s1=new Student("Gourav Mankar", 21, "gouravmankar@gmail.com", 3.5);
+	 Student s1=new Student("Harshita Patel", 21, "harshitapatel@gmail.com", 3.5);
 	 Instructor i1=new Instructor("R.P Gupta", 99, "ravigupta@gmail.com");
 	 List<String> moduleList=new ArrayList<>(Arrays.asList("Introduction to core java", "Introduction to front-ent technologies ", "Introduction to servlets"));
 	 Course c1=new Course("Java Full Stack ",i1,3.6,moduleList);

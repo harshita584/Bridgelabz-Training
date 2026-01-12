@@ -1,4 +1,4 @@
-package com.skillforge;
+package skillforge;
 
 public class Instructor extends User implements ICertifiable {
 
