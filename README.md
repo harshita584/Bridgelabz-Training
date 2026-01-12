@@ -129,3 +129,12 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
+
+## Day 23 - Scenario Based
+**Date:** 12-Jan-2026
+- Solved 3 scenario based question of OOPs
+- Scenarios Covered:
+ - HomeNest – Smart Home Device Manager
+ - BudgetWise – Personal Finance Tracker
+ - GameBox – Mobile Game Distribution Platform
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
