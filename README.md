@@ -45,14 +45,31 @@
 
 
 ---
+## Week 4 – Scenario Based Questions ##
+
 ## Day 22 - Scenario Based
 **Date:** 10-Jan-2026
+
 - Solved 3 scenario based question
 - Scenarios Covered:
  - BookShelf – Library Organizer (HashMap + Linked List)
  - BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
  - AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
-- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
+
+## Day 23 - Scenario Based
+**Date:** 12-Jan-2026
+
+- Solved 4 scenario based question
+- Scenarios Covered:
+ - CallCenter – Customer Queue Manager (Queue + HashMap)
+ - TrainCompanion – Compartment Navigation System (Doubly Linked List)
+ - TextEditor – Undo/Redo Functionality (Stack)
+ - TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
 
