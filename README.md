@@ -43,6 +43,16 @@
 - Practiced Binary Search on sorted data for advanced cases like rotation point, peak element, and 2D matrix search
 - **Code Link:** [Searching Techniques](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linearandbinarysearch)
 
+---
+
+## Day 19 - Runtime Analysis, Big O Notation & Performance Optimization
+**Date:** 07-Jan-2026
+
+- Studied Runtime Analysis with Time & Space Complexity using Big O Notation and applied optimization best practices
+- Compared searching techniques including Linear vs Binary Search and evaluated Array, HashSet, and TreeSet performance
+- Analyzed sorting algorithms (Bubble, Merge, Quick) on large datasets to understand scalability and efficiency
+- Evaluated performance trade-offs between String, StringBuilder, StringBuffer, and Recursive vs Iterative Fibonacci approaches
+- **Code Link:** [Run Time Analysis](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/runTimeAnalysis)
 
 ---
 ## Week 4 – Scenario Based Questions ##
