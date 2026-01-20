@@ -200,7 +200,7 @@
 - **Code Link:** [Searching Techniques](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/com/linearandbinarysearch)
 
 
-## Day 19 - Scenario Based
+## Day 19 - Scenario Based, Runtime Analysis, Big O Notation & Performance Optimization
 **Date:** 07-Jan-2026
 - Solved 3 scenario based question
 - Scenarios Covered:
@@ -208,6 +208,11 @@
  - LoanBuddy – Loan Approval Automation
  - BookBazaar – Digital Bookstore System
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- Studied Runtime Analysis with Time & Space Complexity using Big O Notation and applied optimization best practices
+- Compared searching techniques including Linear vs Binary Search and evaluated Array, HashSet, and TreeSet performance
+- Analyzed sorting algorithms (Bubble, Merge, Quick) on large datasets to understand scalability and efficiency
+- Evaluated performance trade-offs between String, StringBuilder, StringBuffer, and Recursive vs Iterative Fibonacci approaches
+- **Code Link:** [Run Time Analysis](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/runTimeAnalysis)
 
 ---
 
@@ -220,7 +225,7 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
-## Day 21 - Scenario Based
+## Day 21 - Scenario Based, Collections
 **Date:** 09-Jan-2026
 - Solved 3 scenario based question
 - Scenarios Covered:
@@ -228,6 +233,12 @@
  - FoodLoop – Restaurant Ordering System
  - SkillForge – Online Learning Portal
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- Studied core Java Generics concepts to ensure type safety and code reusability
+- Practiced generic classes, generic methods, bounded type parameters, and wildcards
+- Understood and applied best practices for Java Generics, including avoiding raw types
+- Solved real-world scenario-based problems using Generics (Warehouse, Marketplace, University, Meal Plan, Resume Screening)
+- Strengthened understanding of designing flexible and maintainable generic APIs
+- **Code Link:** [Generics](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/generics)
 
 ---
 
@@ -263,3 +274,68 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
+
+## Day 24 - Scenario Based
+**Date:** 13-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+ - ParcelTracker – Delivery Chain Management (Singly Linked List)
+ - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- Solved 2 scenario based question of OOPs
+- Scenarios Covered:
+ - PayXpress – Utility Bill Payment System
+ - Bird Sanctuary – Java OOP Scenario
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Day 25 - Scenario Based
+**Date:** 15-Jan-2026
+
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+ - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+ - ZipZipMart – Daily Sales Summary Report (Merge Sort)
+ - EventManager – Ticket Price Optimizer (Quick Sort)
+ - ExamCell – Student Rank Generator (Merge Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Day 26 - Scenario Based
+**Date:** 16-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+ - CinemaHouse – Movie Time Sorting (Bubble Sort)
+ - CropMonitor – Sensor Data Ordering (Quick Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Day 27 - Scenario Based, Collections
+**Date:** 17-Jan-2026
+
+- Solved 4 scenario based question
+- Scenarios Covered:
+ - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+ - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+ - IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+ - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- Solved 2 scenario based question of OOPs
+- Scenarios Covered:
+ - Bag-n-Ball Organizer
+ - GeoMeasure Solutions
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+- Practiced List, Set, Queue, and Map interfaces through logical and scenario-based problems
+- Implemented operations like reversal, rotation, frequency counting, duplicate removal, and subset checks
+- Designed real-world systems such as Insurance Policy Management, Hospital Triage, Voting System, Shopping Cart, and Banking System
+- Used HashMap, LinkedHashMap, TreeMap, HashSet, LinkedHashSet, TreeSet, PriorityQueue, and Queue for different use cases
+- Compared performance, ordering, and sorting behaviors of various Java Collections
+- **Code Link:** [Collections](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/collections)
+
+
+
