@@ -55,7 +55,7 @@
 - **Code Link:** [Run Time Analysis](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/datastructurepractice/src/runTimeAnalysis)
 
 ---
-## Week 4 – Scenario Based Questions ##
+## Week 5 – Scenario Based Questions ##
 
 ## Day 22 - Scenario Based
 **Date:** 10-Jan-2026
@@ -82,4 +82,48 @@
 
 ---
 
+## Day 24 - Scenario Based
+**Date:** 13-Jan-2026
 
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+ - ParcelTracker – Delivery Chain Management (Singly Linked List)
+ - ExamProctor – Online Exam Review System (Stack + HashMap + Functions)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Day 25 - Scenario Based
+**Date:** 15-Jan-2026
+
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+ - SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+ - ZipZipMart – Daily Sales Summary Report (Merge Sort)
+ - EventManager – Ticket Price Optimizer (Quick Sort)
+ - ExamCell – Student Rank Generator (Merge Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Day 26 - Scenario Based
+**Date:** 16-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+ - CinemaHouse – Movie Time Sorting (Bubble Sort)
+ - CropMonitor – Sensor Data Ordering (Quick Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+- ---
+## Day 27 - Scenario Based
+**Date:** 17-Jan-2026
+
+- Solved 4 scenario based question
+- Scenarios Covered:
+ - ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+ - FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+ - IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+ - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
