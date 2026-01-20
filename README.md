@@ -138,3 +138,23 @@
  - BudgetWise – Personal Finance Tracker
  - GameBox – Mobile Game Distribution Platform
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+## Day 24 - Scenario Based
+**Date:** 13-Jan-2026
+- Solved 2 scenario based question of OOPs
+- Scenarios Covered:
+ - PayXpress – Utility Bill Payment System
+ - Bird Sanctuary – Java OOP Scenario
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+## Day 27 - Scenario Based
+**Date:** 17-Jan-2026
+- Solved 2 scenario based question of OOPs
+- Scenarios Covered:
+ - Bag-n-Ball Organizer
+ - GeoMeasure Solutions
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioBasedProblem/src)
