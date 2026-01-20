@@ -1,4 +1,3 @@
----
 ## Week 4 – Java Collections ##
 ## Day 21 - Java Collections (Generics)
 **Date:** 09-Jan-2026
@@ -21,3 +20,4 @@
 - **Code Link:** [Collections](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/collections)
 
 ---
+
