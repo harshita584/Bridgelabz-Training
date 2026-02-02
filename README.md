@@ -67,9 +67,30 @@
 - **Code Link:** [Annotations](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/annotation)
 - **Code Link:** [Reflection](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/reflection) 
 
+---
 
+## Day 32 - Java Annotations and Reflection
+**Date:** 23-Jan-2026
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - ResumeAnalyzer – Smart Resume Filtering System
+ - TravelLog – Trip Organizer for Backpackers
+ - FeedbackGuru – Smart Survey Analyzer
+ - CodeRepoCleaner – Java File Scanner and Organizer
+ - ExamScanner – Digital Answer Sheet Validator
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblem/src/com)
 
+---
 
+## Day 33 - Java Annotations and Reflection
+**Date:** 24-Jan-2026
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - DealTracker – E-Commerce Discount Validator
+ - ExamResultUploader – Bulk Marks Processing
+ - SongVault – Personal Music Library Manager
+ - ChatLogParser – Messaging Pattern Analyzer
+ - MedInventory – Smart Hospital Inventory Tracker
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblem/src/com)
 
-
-
+---
