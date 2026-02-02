@@ -116,7 +116,8 @@
  - CropMonitor – Sensor Data Ordering (Quick Sort)
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
-- ---
+---
+
 ## Day 27 - Scenario Based
 **Date:** 17-Jan-2026
 
@@ -127,3 +128,43 @@
  - IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
  - SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+## Week 6 – Scenario Based Questions ##
+## Day 29 - Scenario Based
+**Date:** 20-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - MovieTime – Theater Show Listings (Insertion Sort)
+ - FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+ - GamerZone – High Score Ranking System (Quick Sort)
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+## Day 30 - Scenario Based
+**Date:** 21-Jan-2026
+
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+ - MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+ - University's Digital Record System - BST
+ - E-Commerce Product Inventory - BST
+ - Music App - Organize Songs by Track ID - BST
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+## Day 31 - Scenario Based
+**Date:** 22-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+ - Gaming App - Real-Time Leaderboard - AVL
+ - Online Ticket Booking by Time - AVL
+ - Hospital Queue Management - AVL
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
