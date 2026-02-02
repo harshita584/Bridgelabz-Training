@@ -410,3 +410,41 @@
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
+
+## Day 32 – CSV Handling in Java
+**Date:** 23-Jan-2026
+
+- Learned the concept of CSV files and their usage in data storage
+- Practiced reading and writing CSV files using Java
+- Implemented parsing of CSV data into Java objects
+- Solved real-world scenarios like student records and report generation using CSV files
+- **Code Link:** [CSV Handling](https://github.com/harshita584/Bridgelabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/javaiostreamspractice/src/com/csvdatahandling)
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - ResumeAnalyzer – Smart Resume Filtering System
+ - TravelLog – Trip Organizer for Backpackers
+ - FeedbackGuru – Smart Survey Analyzer
+ - CodeRepoCleaner – Java File Scanner and Organizer
+ - ExamScanner – Digital Answer Sheet Validator
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblem/src/com)
+- 
+---
+
+## Day 33 – JSON Handling in Java
+**Date:** 24-Jan-2026
+
+- Studied JSON format and its importance in data exchange
+- Practiced reading, writing, and parsing JSON data in Java
+- Implemented JSON handling using libraries like org.json
+- Solved practical scenarios such as configuration management and data processing
+- **Code Link:** [JSON Handling](https://github.com/harshita584/Bridgelabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/javaiostreamspractice/src/com/jsondata)
+- Solved 5 scenario based question
+- Scenarios Covered:
+ - DealTracker – E-Commerce Discount Validator
+ - ExamResultUploader – Bulk Marks Processing
+ - SongVault – Personal Music Library Manager
+ - ChatLogParser – Messaging Pattern Analyzer
+ - MedInventory – Smart Hospital Inventory Tracker
+- **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblem/src/com)
+
+---
