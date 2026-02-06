@@ -21,6 +21,17 @@
 
 ---
 
+## Day 34 – Scenario Based
+**Date:** 27-Jan-2026
+
+- Solved 3 scenario based question
+- Scenarios Covered:
+- HealthCheckPro – API Metadata Validator (Annotations + Reflection)
+- MarkMate – Student Marksheet Generator (CSV + JSON)
+- EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based-practice/scenariobasedpractice/src/com)
+
+---
 
 
 
