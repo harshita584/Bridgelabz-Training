@@ -360,8 +360,6 @@
 - Learned types of exceptions (checked, unchecked, errors) and exception hierarchy
 - Practiced using try, catch, finally, throw, and throws with multiple scenarios
 - **Code Link:** [Exception](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/javacollectionspractice/src/com/exceptionhandling)
-- ## Day 29 - Scenario Based
-**Date:** 20-Jan-2026
 - Solved 3 scenario based question
 - Scenarios Covered:
  - MovieTime – Theater Show Listings (Insertion Sort)
@@ -446,5 +444,24 @@
  - ChatLogParser – Messaging Pattern Analyzer
  - MedInventory – Smart Hospital Inventory Tracker
 - **Code Link:** [ScenarioBased](https://github.com/harshita584/Bridgelabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblem/src/com)
+
+---
+
+## Week 7 – Advanced Java and exception ##
+## Day 34 – Functional Interface and Lambda Interface
+**Date:** 27-Jan-2026
+
+- Studied the concept of Functional Interfaces in Java
+- Understood the role of @FunctionalInterface annotation
+- Learned how Lambda Expressions simplify functional interface implementation
+- Implemented lambda expressions to reduce boilerplate code and improve readability
+- **Code Link:** [Functional Interface](https://github.com/harshita584/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8programmingpractice/src/com/functionalinterfaces)
+- **Code Link:** [Lambda Interface](https://github.com/harshita584/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8programmingpractice/src/com/lambdaexpression)
+- Solved 3 scenario based question
+- Scenarios Covered:
+- HealthCheckPro – API Metadata Validator (Annotations + Reflection)
+- MarkMate – Student Marksheet Generator (CSV + JSON)
+- EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based-practice/scenariobasedpractice/src/com)
 
 ---
