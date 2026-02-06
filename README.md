@@ -447,7 +447,7 @@
 
 ---
 
-## Week 7 – Advanced Java and exception ##
+## Week 7 – Java 8 Features and Design Patterns ##
 ## Day 34 – Functional Interface and Lambda Interface
 **Date:** 27-Jan-2026
 
@@ -463,5 +463,32 @@
 - MarkMate – Student Marksheet Generator (CSV + JSON)
 - EventTracker – Auto Audit System (Annotations + Reflection + JSON)
 - **Code Link:** [Scenario Based](https://github.com/harshita584/Bridgelabz-Training/tree/java-iostreams-practice/java-iostreams-practice/scenario-based-practice/scenariobasedpractice/src/com)
+
+---
+
+## Day 35 – Stream API, Collector and Workshop
+**Date:** 28-Jan-2026
+
+- Studied the Java Stream API and its role in functional-style programming
+- Practiced terminal and intermediate operations on streams
+- Explored the Collectors class and commonly used collectors
+- Implemented stream and collector operations for data processing and transformation
+- practiced a workshop on Smart City Transport & Service Management System
+- **Code Link:** [Stream API](https://github.com/harshita584/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8programmingpractice/src/com/streamapi)
+- **Code Link:** [Collector](https://github.com/harshita584/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8programmingpractice/src/com/collectors)
+- **Code Link:** [Workshop](https://github.com/harshita584/Bridgelabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8programmingpractice/src/com/workshop/smartcitytransportandservicemanagementsystem)
+
+---
+
+## Day 38 - Design Patterns
+**Date:** 31-Jan-2026
+- Studied the concept of Design Patterns and their importance in software development
+- Understood how design patterns provide reusable solutions to common design problems
+- Learned the classification of design patterns:
+- Creational Design Patterns
+- Structural Design Patterns
+- Behavioral Design Patterns
+- Implemented design patterns in Java to improve code structure, scalability, and maintainability
+- **Code Link:** [Design Pattern](https://github.com/harshita584/Bridgelabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/javadesignpatternpractice/src/com/librarymanagementsystem)
 
 ---
