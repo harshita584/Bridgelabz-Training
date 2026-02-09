@@ -1,0 +1,37 @@
+CREATE TABLE books(
+	isbn int PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    isAvailable boolean
+);
+
+CREATE TABLE borrow_record (
+	isbn int PRIMARY KEY REFERENCES BOOKS(isbn),
+    issue_date DATE NOT NULL,
+    days int
+);
+
+SHOW TABLES;
+
+INSERT INTO books(isbn, name, isAvailable) VALUES 
+(1, "Book1", true),
+(2, "Book2", true),
+(3, "Book3", true),
+(4, "Book4", true),
+(5, "Book5", true);
+
+SELECT * FROM BOOKS;
+SELECT * FROM borrow_record;
+
+UPDATE BOOKS SET isAvailable=false WHERE isbn=3;
+
+INSERT INTO borrow_record(isbn, issue_date, days) VALUES
+(3, '2026-01-01',5);
+
+UPDATE BOOKS SET isAvailable=true WHERE isbn=3;
+SELECT GREATEST(
+        DATEDIFF(
+            CURDATE(),
+            DATE_ADD(issue_date, INTERVAL days DAY)
+        ),
+        0
+    ) * 5 AS total_fine from borrow_record where isbn=3;
