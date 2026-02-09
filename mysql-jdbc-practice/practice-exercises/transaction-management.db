@@ -1,0 +1,32 @@
+use mysqlpractice;
+
+CREATE TABLE account(
+	account_number varchar(10) primary key,
+    name varchar(255) not null,
+    balance int
+);
+
+CREATE TABLE transaction_history(
+	id int,
+    action VARCHAR(255) not null
+);
+
+show tables;
+
+INSERT INTO account(account_number, name, balance) VALUES
+("1111111111", "Acc1", 1000),
+("2222222222", "Acc2", 2000),
+("3333333333", "Acc3", 3000);
+
+SELECT * FROM account;
+
+START TRANSACTION;
+
+UPDATE account set balance=balance-500 WHERE account_number="1111111111";
+UPDATE account set balance=balance+500 WHERE account_number="2222222222";
+INSERT INTO transaction_history VALUES (1, "1111111111 transfered 500 to 2222222222");
+
+COMMIT;
+
+SELECT balance FROM account WHERE account_number="1111111111";
+SELECT * FROM transaction_history;
