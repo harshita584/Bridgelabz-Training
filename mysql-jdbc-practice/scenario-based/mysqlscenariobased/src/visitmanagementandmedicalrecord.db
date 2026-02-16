@@ -1,0 +1,41 @@
+CREATE TABLE visits (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    appointment_id INT,
+    diagnosis VARCHAR(255),
+    prescription_notes VARCHAR(255),
+    visit_date DATE,
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id)
+);
+
+CREATE TABLE prescriptions (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    visit_id INT,
+    medicine_name VARCHAR(100),
+    dosage VARCHAR(100),
+    duration VARCHAR(100),
+    FOREIGN KEY (visit_id) REFERENCES visits(id)
+);
+
+START TRANSACTION;
+INSERT INTO visits (appointment_id, diagnosis, prescription_notes, visit_date) VALUES
+(1, 'Fever', 'Prescriptions notes', CURRENT_DATE);
+
+UPDATE appointments SET status = 'COMPLETED' WHERE id = 1;
+COMMIT;
+
+SELECT
+    v.id AS visit_id,
+    v.visit_date as date,
+    v.diagnosis,
+    p.medicine_name,
+    p.dosage,
+    p.duration
+FROM visits v
+INNER JOIN appointments a ON v.appointment_id = a.id
+INNER JOIN prescriptions p ON v.id = p.visit_id
+WHERE a.patient_id = 1
+ORDER BY v.visit_date DESC;
+
+INSERT INTO prescriptions (visit_id, medicine_name, dosage, duration) VALUES
+(1, 'M1', '1', '5 days'),
+(1, 'M2', '2', '10 days');
