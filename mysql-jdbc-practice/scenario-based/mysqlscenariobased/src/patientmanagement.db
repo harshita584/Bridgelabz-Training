@@ -1,0 +1,57 @@
+CREATE TABLE patient(
+	id INT PRIMARY KEY AUTO_INCREMENT,	
+    name VARCHAR(255) not null,
+    DOB VARCHAR(255),
+    contact VARCHAR(10) unique key,
+    address VARCHAR(255),
+    blood_group VARCHAR(5)
+);
+
+CREATE TABLE doctor(
+	id INT PRIMARY KEY,
+    name VARCHAR(255)
+);
+
+CREATE TABLE appointment(
+	id INT PRIMARY KEY,
+    patient_id INT REFERENCES patient(id),
+    doctor_id INT REFERENCES doctor(id)
+);
+
+CREATE TABLE VISIT(
+	id INT PRIMARY KEY,
+    diagnosis VARCHAR(255),
+    appointment_id INT REFERENCES appointment(id)
+);
+
+SHOW TABLES;
+
+INSERT INTO patient(name, DOB, contact, address, blood_group) VALUES
+("Patient 1","01-01-2000", "1111111111", "Address 1", "B+");
+
+SELECT * FROM patient;
+
+SELECT * FROM patient WHERE id=1;
+
+UPDATE patient SET address="Updated Address 1" WHERE id=1;
+
+SELECT * FROM PATIENT WHERE NAME LIKE "Pati%";
+
+INSERT INTO doctor VALUES (1, "Doctor 1");
+
+INSERT INTO appointment VALUES (1, 1, 1);
+
+INSERT INTO visit VALUES (1, "Diagnoses", 1);
+
+SELECT 
+    a.id AS appointment_id,
+    v.id AS visit_id,
+    d.name AS doctor_name,
+    v.diagnosis
+FROM appointment a
+INNER JOIN visit v 
+    ON a.id = v.appointment_id
+INNER JOIN doctor d 
+    ON d.id = a.doctor_id
+WHERE a.patient_id = 1
+ORDER by d.name;
