@@ -1,0 +1,69 @@
+CREATE TABLE bills (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    visit_id INT,
+    total_amount DECIMAL(10,2),
+    payment_status VARCHAR(20),
+    payment_date DATE,
+    payment_mode VARCHAR(50),
+    FOREIGN KEY (visit_id) REFERENCES visits(id)
+);
+
+CREATE TABLE bill_items (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    item_name VARCHAR(100),
+    amount DECIMAL(10,2),
+    FOREIGN KEY (bill_id) REFERENCES bills(id)
+);
+
+CREATE TABLE payment_transactions (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    transaction_date DATETIME,
+    amount DECIMAL(10,2),
+    mode VARCHAR(50),
+    FOREIGN KEY (bill_id) REFERENCES bills(id)
+);
+
+INSERT INTO bills (visit_id, total_amount, payment_status) VALUES (1, 500.00, 'UNPAID');
+
+INSERT INTO bill_items (bill_id, item_name, amount) VALUES (1, 'Item1', 500.00), (1, 'Item2', 300.00);
+
+UPDATE bills SET total_amount = (
+    SELECT SUM(amount)
+    FROM bill_items
+    WHERE bill_id = 1
+)
+WHERE id = 1;
+
+SELECT * FROM bills;
+
+START TRANSACTION;
+UPDATE bills SET payment_status = 'PAID', payment_date = CURRENT_DATE, payment_mode = 'CASH' WHERE id = 1;
+INSERT INTO payment_transactions (bill_id, transaction_date, amount, mode) VALUES (1, NOW(), 800.00, 'CASH');
+COMMIT;
+
+SELECT
+    b.id AS bill_id,
+    p.name AS patient_name,
+    b.total_amount as total_amount,
+    b.payment_status as payment_status
+FROM bills b
+INNER JOIN visits v
+    ON b.visit_id = v.id
+INNER JOIN appointments a
+    ON v.appointment_id = a.id
+INNER JOIN patients p
+    ON a.patient_id = p.id
+WHERE b.payment_status = 'UNPAID';
+
+SELECT
+    p.name AS patient_name,
+    COUNT(b.id) AS total_unpaid_bills,
+    SUM(b.total_amount) AS total_due
+FROM bills b
+INNER JOIN visits v ON b.visit_id = v.id
+INNER JOIN appointments a ON v.appointment_id = a.id
+INNER JOIN patients p ON a.patient_id = p.id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.name;
