@@ -1,0 +1,30 @@
+CREATE TABLE audit_log (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    table_name VARCHAR(100),
+    action_type VARCHAR(20),
+    user_name VARCHAR(100)
+);
+
+INSERT INTO specialties VALUES (3, 'Speciality 3');
+
+SELECT * FROM specialties;
+
+UPDATE specialties SET name = 'Updated Speciality' WHERE id = 3;
+
+SELECT COUNT(*) AS doctor_count FROM doctors WHERE specialty_id = 3;
+
+DELETE FROM specialties WHERE id = 3 AND NOT EXISTS (
+    SELECT 1
+    FROM doctors
+    WHERE specialty_id = 3
+);
+
+SELECT * FROM audit_log WHERE user_name = 'admin' AND table_name = 'doctors';
+
+CREATE TRIGGER doctors_after_update 
+AFTER UPDATE ON doctors
+FOR EACH ROW
+INSERT INTO audit_log
+(table_name, action_type, user_name)
+VALUES
+('doctors', 'UPDATE', 'Username');
