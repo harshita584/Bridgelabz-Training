@@ -1,0 +1,86 @@
+CREATE TABLE patients (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    contact VARCHAR(15)
+);
+
+CREATE TABLE doctors (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
+CREATE TABLE appointments (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    patient_id INT,
+    doctor_id INT,
+    appointment_date DATE,
+    appointment_time TIME,
+    status VARCHAR(20),
+    FOREIGN KEY (patient_id) REFERENCES patients(id),
+    FOREIGN KEY (doctor_id) REFERENCES doctors(id)
+);
+
+CREATE TABLE appointment_audit (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    appointment_id INT,
+    action VARCHAR(20),
+    foreign key (appointment_id) references appointments(id)
+);
+
+INSERT INTO patients VALUES (1, 'Patient 1', '9999999999');
+INSERT INTO doctors VALUES (1, 'Doctor 1');
+
+SELECT COUNT(*) AS booked_slots
+FROM appointments
+WHERE doctor_id = 1
+AND appointment_date = '2026-04-01'
+AND appointment_time = '10:00:00'
+AND status = 'SCHEDULED';
+
+INSERT INTO appointments
+(patient_id, doctor_id, appointment_date, appointment_time, status)
+VALUES
+(1, 1, '2026-04-01', '10:00:00', 'SCHEDULED');
+
+SELECT
+    appointment_time,
+    COUNT(*) AS total_bookings
+FROM appointments
+WHERE doctor_id = 1
+AND appointment_date = '2026-04-01'
+AND status = 'SCHEDULED'
+GROUP BY appointment_time;
+
+
+START TRANSACTION;
+UPDATE appointments SET status = 'CANCELLED' WHERE id = 1;
+INSERT INTO appointment_audit(appointment_id, action) VALUES (1, 'CANCELLED');
+COMMIT;
+
+START TRANSACTION;
+SELECT COUNT(*) AS booked_slots
+FROM appointments
+WHERE doctor_id = 1
+AND appointment_date = '2026-04-02'
+AND appointment_time = '11:00:00'
+AND status = 'SCHEDULED';
+
+UPDATE appointments
+SET appointment_date = '2026-04-02',
+    appointment_time = '11:00:00',
+    status = 'SCHEDULED'
+WHERE id = 1;
+COMMIT;
+
+SELECT
+    a.appointment_time,
+    p.name AS patient_name,
+    d.name AS doctor_name,
+    a.status
+FROM appointments a
+INNER JOIN patients p
+    ON a.patient_id = p.id
+INNER JOIN doctors d
+    ON a.doctor_id = d.id
+WHERE a.appointment_date = '2026-04-01'
+ORDER BY a.appointment_time;
