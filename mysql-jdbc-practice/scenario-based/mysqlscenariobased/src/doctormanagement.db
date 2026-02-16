@@ -1,0 +1,63 @@
+CREATE TABLE specialties (
+    id INT PRIMARY KEY,
+    name VARCHAR(100)
+);
+
+CREATE TABLE doctors (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    contact VARCHAR(15),
+    consultation_fee DECIMAL(10,2),
+    specialty_id INT,
+    is_active BOOLEAN,
+    FOREIGN KEY (specialty_id) REFERENCES specialties(id)
+);
+
+CREATE TABLE schedules (
+    id INT PRIMARY KEY,
+    doctor_id INT,
+    day VARCHAR(20),
+    time VARCHAR(20),
+    FOREIGN KEY (doctor_id) REFERENCES doctors(id)
+);
+
+CREATE TABLE appointments (
+    id INT PRIMARY KEY,
+    doctor_id INT,
+    appointment_date DATE,
+    FOREIGN KEY (doctor_id) REFERENCES doctors(id)
+);
+
+INSERT INTO specialties VALUES (1, 'Speciality 1');
+INSERT INTO specialties VALUES (2, 'Speciality 2');
+INSERT INTO doctors VALUES (1, 'Doctor', '1111111111', 500.00, 1, true);
+INSERT INTO schedules VALUES (1, 1, 'Monday', '10AM-5PM');
+
+SELECT * FROM specialties;
+SELECT * FROM doctors;
+
+START TRANSACTION;
+UPDATE doctors SET specialty_id = 2 WHERE id = 1;
+COMMIT;
+
+SELECT d.id,
+       d.name,
+       s.name as specialty,
+       sch.day,
+       sch.time
+FROM doctors d
+INNER JOIN specialties s
+  ON d.specialty_id = s.id
+INNER JOIN schedules sch
+  ON d.id = sch.doctor_id
+WHERE s.name = 'Speciality 2';
+
+UPDATE doctors
+SET is_active = FALSE
+WHERE id = 1
+AND NOT EXISTS (
+    SELECT 1
+    FROM appointments
+    WHERE doctor_id = 1
+      AND appointment_date > CURRENT_DATE
+);
